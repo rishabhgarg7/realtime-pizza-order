@@ -52,3 +52,19 @@ section.cart .amount {
   color: #FE5F1E;
 }
 
+.login,
+.register {
+  background: #F8F8F8;
+  min-height: 88vh;
+}
+
+.login a,
+.register a {
+  color: #FE5F1E;
+}
+
+.login a:hover,
+.register a:hover {
+  color: #b23301;
+}
+

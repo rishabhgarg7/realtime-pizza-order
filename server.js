@@ -19,6 +19,12 @@ app.get("/", (req,res)=> {
 app.get("/cart", (req,res)=> {
     res.render('customers/cart.ejs')
 })
+app.get("/login", (req,res)=> {
+    res.render('auth/login.ejs')
+})
+app.get("/register", (req,res)=> {
+    res.render('auth/register.ejs')
+})
 // server listening on PORT
 app.listen(PORT, () => {
     console.log(`Listening on port: ${PORT}`);

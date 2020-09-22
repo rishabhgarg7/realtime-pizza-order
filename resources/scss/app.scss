@@ -48,3 +48,15 @@ section.cart {
         color: $primary;
     }
 }
+
+.login , .register {
+    background: $secondary;
+    min-height: 88vh;
+    // min-height: calc(100vh -86px);
+    a {
+        color: $primary;
+        &:hover {
+            color: $primary-hover;
+        }
+    }
+}
