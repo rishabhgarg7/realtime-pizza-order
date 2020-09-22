@@ -24,3 +24,14 @@ nav li a{
 section.hero {
     background: $secondary;
 }
+
+.add-to-cart {
+    border: 2px solid $primary;
+    color: $primary;
+    padding: 2px 4px;
+    transition: $smooth;
+    &:hover{
+        background-color: $primary;
+        color: white;
+    }
+}
