@@ -5,7 +5,8 @@ const path = require('path')
 const expressEjsLayouts = require('express-ejs-layouts');
 const PORT = process.env.PORT || 3000
 
-//serving resources on requested routes
+//serving resources on requested routes ASSETS
+app.use(express.static('public'))
 app.get("/", (req,res)=> {
     res.render('home')
     // res.send("Hi there from server");
